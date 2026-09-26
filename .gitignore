@@ -1,0 +1,32 @@
+
+# Python environments
+.venv/
+venv/
+
+# Python temporary files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Personal conversation history and memory
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Private configuration
+.env
+.env.*
+!.env.example
+
+# Downloaded AI models and audio
+models/
+*.gguf
+*.safetensors
+*.wav
+*.mp3
+
+# Editor and system files
+.vscode/
+.DS_Store
+Thumbs.db
